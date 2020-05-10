@@ -1,0 +1,5 @@
+mysql>create database mandar;
+mysql>use mandar;
+mysql>create table login(username varchar(10),password varchar(20));
+mysql>create table register(Name varchar(88),Email varchar(20),contactno varchar(10),date varchar(10),month varchar(10),year varchar(10));
+mysql>create table booking(TrainName varchar(88),TrainNo varchar(88),Destination1 varchar(88),Destination2 varchar(88),Date varchar(88),Departure varchar(88),Arrival varchar(88),Boarding varchar(88),Class varchar(88),Name varchar(88),Age varchar(88),Gender varchar(88),Berth varchar(88),NoOfPassengers varchar(88),MobileNo varchar(88),Fare varchar(88),PnrNo varchar(88),SeatNo varchar(88),Status varchar(88));
